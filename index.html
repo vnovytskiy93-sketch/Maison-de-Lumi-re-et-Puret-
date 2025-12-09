@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моята първа страница</title>
+</head>
+<body>
+    <h1>Здравей, свят!</h1>
+    <p>Това е параграф от моя HTML документ.</p>
+</body>
+</html>
+
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ЧистоUA — клининговая компания</title>
+<meta name="description" content="Профессиональная уборка квартир, домов и офисов в Украине. Закажите уборку с гарантией качества.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="container">
+<div class="logo">ЧистоUA</div>
+<nav>
+<a href="#services">Услуги</a>
+<a href="#prices">Цены</a>
+<a href="#contact">Контакты</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<h1>Профессиональная уборка квартир, домов и офисов</h1>
+<p>Работаем по всей Украине. Гарантия качества, безопасные средства и оперативный выезд.</p>
+<a href="#order" class="btn">Заказать уборку</a>
+</div>
+</section>
+
+<section id="services" class="container">
+<h2>Наши услуги</h2>
+<div class="grid">
+<div class="card"><h3>Уборка квартир</h3><p>Поддерживающая, генеральная, после арендаторов.</p></div>
+<div class="card"><h3>Генеральная уборка</h3><p>Глубокая очистка всего дома или квартиры.</p></div>
+<div class="card"><h3>Послестроительная</h3><p>Удаление пыли, мусора и следов ремонта.</p></div>
+<div class="card"><h3>Уборка офисов</h3><p>Регулярная уборка для бизнеса.</p></div>
+<div class="card"><h3>Мойка окон</h3><p>Мытьё окон, витрин, балконов.</p></div>
+<div class="card"><h3>Химчистка мебели</h3><p>Очистка диванов, ковров, матрасов.</p></div>
+</div>
+</section>
+
+<section id="prices" class="container">
+<h2>Примерные цены</h2>
+<ul class="price-list">
+<li>Уборка однокомнатной квартиры — <b>от 700 грн</b></li>
+<li>Генеральная уборка — <b>от 1500 грн</b></li>
+<li>Послестроительная — <b>от 200 грн/час</b></li>
+<li>Химчистка дивана — <b>от 600 грн</b></li>
+</ul>
+<p class="muted">Точную цену сообщим после оценки.</p>
+</section>
+
+<section id="order" class="container">
+<h2>Заказать уборку</h2>
+<form id="orderForm">
+<input type="text" name="name" placeholder="Ваше имя" required>
+<input type="tel" name="phone" placeholder="Телефон" required>
+<select name="service" required>
+<option value="">Выберите услугу</option>
+<option>Уборка квартиры</option>
+<option>Генеральная уборка</option>
+<option>Послестроительная</option>
+<option>Химчистка мебели</option>
+</select>
+<textarea name="comment" placeholder="Комментарий (необязательно)"></textarea>
+<button type="submit">Отправить заявку</button>
+</form>
+<div id="formStatus"></div>
+</section>
+
+<section id="contact" class="container">
+<h2>Контакты</h2>
+<p>Телефон: <b>+38 (0__) ___-__-__</b></p>
+<p>Email: <b>info@chysto.ua</b></p>
+<p>Работаем: Пн–Вс, с 8:00 до 21:00</p>
+</section>
+
+<footer>
+<p>© 2025 ЧистоUA — клининговая компания</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
